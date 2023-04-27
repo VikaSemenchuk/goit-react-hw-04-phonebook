@@ -55,8 +55,6 @@ export const App = () => {
 
   function deleteContact(contactId) {
     setContacts(prev => prev.filter(({ id }) => id !== contactId));
-
-    console.log('contacts :>> ', contacts);
   }
 
   return (
